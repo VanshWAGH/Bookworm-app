@@ -19,7 +19,7 @@ A full-stack reading tracker built with **MongoDB, Express, React, and Node.js**
 
 | Frontend         | Backend             | Database        | Authentication         |
 |------------------|---------------------|------------------|--------------------------|
-| React.js         | Node.js + Express   | MongoDB (Atlas) | JWT + Bcrypt (Hashing)  |
+| React Native        | Node.js + Express   | MongoDB (Atlas) | JWT + Bcrypt (Hashing)  |
 | React Router     | RESTful API         | Mongoose (ODM)  | Cookies (HTTP-only)     |
 
 ## ⚙️ Authentication Flow
