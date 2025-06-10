@@ -45,9 +45,51 @@ A full-stack reading tracker built with **MongoDB, Express, React, and Node.js**
 
 # Home Screen
 
-![Screenshot 2025-06-10 181626](https://github.com/user-attachments/assets/c8bb44f1-fa90-4e64-b0a9-f852e6031f3d)
+![Screenshot 2025-06-10 180555](https://github.com/user-attachments/assets/c7b6159c-1bfa-40e8-bc91-0814882da76e)
 
-## ▶️ How to Use the Project
+
+### 1️⃣ Clone & Setup
+```bash
+git clone https://github.com/VanshWAGH/Bookworm-app.git
+cd Bookworm
+
+
+
+2️⃣ Run Backend Server
+
+cd backend
+npm install
+npm run dev
+
+
+3️⃣ Run Mobile App
+bash
+cd mobile
+npx expo install
+npx expo start
+
+Then:
+
+-Scan QR code with Expo Go app (mobile)
+
+-Or press w for web browser
+
+
+🌐 API Configuration
+Edit 
+
+javascript
+// For local development:
+-const API_URL = "http://localhost:3000"; 
+
+// For deployed backend:
+-const API_URL = "https://reactnative-bookworm.onrender.com";
+
+
+
+
+
+
 
 
 
